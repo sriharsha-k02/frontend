@@ -32,7 +32,7 @@ function App() {
         }
       });
     }
-  }, []);
+  }, [zipcode]);
 
   const handleSearch = async () => {
     const res = await fetch('https://your-backend-url.com/search', {
